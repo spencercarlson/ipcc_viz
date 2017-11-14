@@ -1,0 +1,32 @@
+text.node:hover tspan {
+	fill: #157ffb;
+}
+
+.plus:hover {
+	opacity: 1;
+}
+
+.viewing_info tspan {
+	fill: #157ffb;
+}
+
+.viewing_info g.glow {
+	opacity: 1;
+}
+
+.glow {
+	opacity: 0;
+}
+
+.glow:hover {
+	opacity: 1;
+}
+
+.plus {
+	opacity: .4;
+}
+
+#key {
+	max-height: 80px;
+	float: left;
+}
