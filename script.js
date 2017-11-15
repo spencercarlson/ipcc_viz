@@ -61,6 +61,12 @@ $(document).ready(function(){
 		$(".viewing_info").removeClass("viewing_info");
 		$(initial).show();
 	});
+
+// test this backdrop hide function!
+	$("#backdrop").click(function(){
+		$(".info").hide();
+		$(".viewing_info").removeClass("viewing_info");
+	});
 });
 
 //initial nodes, links, and plusses to display

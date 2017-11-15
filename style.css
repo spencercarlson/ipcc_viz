@@ -18,9 +18,10 @@ text.node:hover tspan {
 	opacity: 0;
 }
 
-.glow:hover {
+/*hide this until after presentation*/
+/*.glow:hover {
 	opacity: 1;
-}
+}*/
 
 .plus {
 	opacity: .4;
