@@ -22,13 +22,13 @@ $(document).ready(function(){
 	// also, hide all other info
 	// also, show 'glow' aka dotted line around link
 	// (and make sure nothing else is blue or glowing)
-	$(".link").click(function(){
-		var id = $(this).attr("id");
-		$(lookup[id]).show();
-		$(".info:not("+lookup[id]+")").hide();
-		$(".viewing_info").removeClass("viewing_info");
-		$(this).addClass("viewing_info");
-	});
+	// $(".link").click(function(){
+	// 	var id = $(this).attr("id");
+	// 	$(lookup[id]).show();
+	// 	$(".info:not("+lookup[id]+")").hide();
+	// 	$(".viewing_info").removeClass("viewing_info");
+	// 	$(this).addClass("viewing_info");
+	// });
 
 	// when a plus gets clicked, hide the plus, show plusses for upstream vars, show the upstream links and vars
 	$(".plus").click(function(){
@@ -62,11 +62,6 @@ $(document).ready(function(){
 		$(initial).show();
 	});
 
-// test this backdrop hide function!
-	$("#backdrop").click(function(){
-		$(".info").hide();
-		$(".viewing_info").removeClass("viewing_info");
-	});
 });
 
 //initial nodes, links, and plusses to display
@@ -79,6 +74,18 @@ var lookup = {
 	ice : '#info_ice',
 	FOLU : '#info_FOLU',
 	fossil_fuels : '#info_fossil_fuels',
+	sea_level : "#info_sea_level",
+	aerosols : "#info_aerosols",
+	aerosol_black_carbon : "#info_aerosol_black_carbon",
+	solar_irradiance : "#info_solar_irradiance",
+	radiative_forcing : "#info_radiative_forcing",
+	atmospheric_ghg : "#info_atmospheric_ghg",
+	emissions : "#info_emissions",
+	population_economy_size : "#info_population_economy_size" ,
+	ocean_co2 : "#info_ocean_co2" ,
+	ocean_acidity : "#info_ocean_acidity" ,
+	soil_and_vegetation_co2 : "#info_soil_and_vegetation_co2" ,
+	oceanic_evaporation_and_precipitation :"#info_oceanic_evaporation_and_precipitation" ,
 };
 
 //lookup upstream links of clicked plus sign

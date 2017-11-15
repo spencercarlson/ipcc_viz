@@ -31,3 +31,7 @@ text.node:hover tspan {
 	max-height: 80px;
 	float: left;
 }
+
+.info img {
+	max-width: 600px;
+}
