@@ -61,6 +61,7 @@ $(document).ready(function(){
 		$(".info").hide();
 		$(".viewing_info").removeClass("viewing_info");
 		$(initial).show();
+		$("#instructions").show();
 	});
 
 });
