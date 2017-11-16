@@ -1,10 +1,11 @@
 $(document).ready(function(){
 	// begin by hiding everything except the ids listed in the 'initial' variable
-	$(".node").hide();
-	$(".link").hide();
+	// $(".node").hide();
+	// $(".link").hide();
 	$(".plus").hide();
 	$(".info").hide();
-	$(initial).show();
+	$("#instructions").show();
+	// $(initial).show();
 
 	// when a node gets clicked show info for that node
 	// also, hide all other info
