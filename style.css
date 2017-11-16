@@ -35,3 +35,20 @@ text.node:hover tspan {
 .info img {
 	max-width: 600px;
 }
+
+#increased {
+	/*color: #157ffb;   blue*/
+	color: #ff9900; /*orange*/
+}
+
+
+
+#decreased {
+	color: #7700cc;
+	/*color: #ff2600;*/
+}
+
+
+/*#ar5 {
+	color: #7700cc;
+}*/
